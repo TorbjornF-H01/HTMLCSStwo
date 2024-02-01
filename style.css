@@ -34,7 +34,11 @@ h4 {
     border: 5px solid black;
     outline: 10px solid green;
     outline-offset: 3px;
-    /* outlinewidth: */
+    /* 
+    outline-width: 10px 
+    outline-style: solid
+    outline-color: green
+    */
 }
 
 
@@ -42,4 +46,20 @@ h4 {
     background: linear-gradient(purple, pink, yellow);
     background-size: cover;
     /* background-position: ; */
+}
+
+h5 {
+    /* 
+    Margins, Padding 
+    Margin= outside element, 
+    Padding= inside  element*/
+    /* outside: */
+    margin: 5px;
+    border: 4px solid black;
+}
+
+h6 {
+    /* inside */
+    padding: 5px;
+    border: 4px solid black;
 }
