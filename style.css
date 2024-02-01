@@ -1,4 +1,4 @@
-/* Style borders, margins, padding */
+/* Style borders, outline, margins, padding */
 /* the default color is based on the text color(border) */
 h1 {
     /* border: 5px dashed crimson; */
@@ -28,4 +28,18 @@ h3 {
     /* top and bottom red, left and right green */
     border-width: thick;
     border-radius: 10px;
+}
+
+h4 {
+    border: 5px solid black;
+    outline: 10px solid green;
+    outline-offset: 3px;
+    /* outlinewidth: */
+}
+
+
+.swag {
+    background: linear-gradient(purple, pink, yellow);
+    background-size: cover;
+    /* background-position: ; */
 }
