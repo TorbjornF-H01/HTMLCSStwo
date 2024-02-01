@@ -20,8 +20,12 @@ h2 {
 }
 
 h3 {
+    background: linear-gradient(aqua, blue, red);
+    /* only use gradiant when you understand the values, where to fix mistake */
     Border-style: solid dotted ridge double;
     /* 4 values clockwise */
     border-color: red green;
     /* top and bottom red, left and right green */
+    border-width: thick;
+    border-radius: 10px;
 }
