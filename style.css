@@ -5,5 +5,23 @@ h1 {
     border-width: 10px;
     border-style: ridge;
     border-color: brown;
-    color: blue
+    /* border-style: hidden; border is hidden still there */
+    color: blue;
+}
+
+h2 {
+    /* styling example*/
+    border-width: 10px;
+    /* border-width: thick text based example */
+    border-style: solid;
+    border-color: brown;
+    border-color: aqua blueviolet green red;
+    color: blue;
+}
+
+h3 {
+    Border-style: solid dotted ridge double;
+    /* 4 values clockwise */
+    border-color: red green;
+    /* top and bottom red, left and right green */
 }
