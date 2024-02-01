@@ -1,1 +1,9 @@
-/* Style it */
+/* Style borders, margins, padding */
+/* the default color is based on the text color(border) */
+h1 {
+    /* border: 5px dashed crimson; */
+    border-width: 10px;
+    border-style: ridge;
+    border-color: brown;
+    color: blue
+}
